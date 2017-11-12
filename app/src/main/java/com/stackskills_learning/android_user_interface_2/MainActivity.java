@@ -22,7 +22,11 @@ public class MainActivity extends AppCompatActivity {
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                resultTextView.setTextColor(Color.GRAY);
+                if (seekBar.getProgress() >= 7){
+                    resultTextView.setTextColor(Color.RED);
+                }else{
+                resultTextView.setTextColor(Color.GRAY);}
+
                 resultTextView.setText("Pain Level! " + seekBar.getProgress() + "/" + seekBar.getMax());
             }
 
@@ -33,10 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                if (seekBar.getProgress() >= 7){
-                    resultTextView.setTextColor(Color.RED);
-                }
-
                 Log.d("SB","onStopTrackingTouch");
             }
         });
