@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Android-User-Interface-2</string>
+    <string name="app_name">Seek Bar</string>
+    <string name="pain_level">Whats you pain level on a scale of one to ten</string>
 </resources>
