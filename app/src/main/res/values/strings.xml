@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Android-User-Interface-2</string>
+    <string name="app_name">Toggle Button</string>
+    <string name="hide_seek">Hide and Seek</string>
+    <string name="peek">Peek a Boo</string>
 </resources>
