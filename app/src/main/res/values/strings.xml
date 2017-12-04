@@ -4,4 +4,5 @@
     <string name="maybe">Maybe</string>
     <string name="no">No</string>
     <string name="attending">Attending?</string>
+    <string name="textViewMessage">Leave a Message</string>
 </resources>
