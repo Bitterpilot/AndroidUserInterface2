@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Android-User-Interface-2</string>
+    <string name="button_name">Show Alert</string>
+    <string name="alert_title">Alert Dialog</string>
+    <string name="alert_message">Sure?</string>
+    <string name="alert_positive">Proceed</string>
+    <string name="alert_negative">Cancel</string>
 </resources>
